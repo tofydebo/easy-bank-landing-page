@@ -134,8 +134,8 @@ width: 100%;
 top: 0;
     width: 375px;
     height: 423px;
-    margin-top: -290px;
-    margin-left: -150px;
+   /* margin-top: -290px;
+    margin-left: -150px;*/
     overflow: hidden;
   }
 }
