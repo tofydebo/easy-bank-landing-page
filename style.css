@@ -157,13 +157,13 @@ body {
 
 media only screen and (max-width: 768px) {
   .heading {
-
 padding-left: 60px;
   padding-right: 60px;
   padding-top: 70px;
   padding-bottom: 40px;
   word-wrap: break-word;
-
+}
+}
 
 .flex-container {
   display: flex;
@@ -280,6 +280,9 @@ footer {
   @media only screen and (max-width: 768px) {
   #list2 {
     column-count: 1;
+display: flex;
+justify-content: center;
+align-items: center;
     }
   }
 
