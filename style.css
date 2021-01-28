@@ -148,7 +148,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0px 5px 10px 5px;
   }
+  
 }
 
 
@@ -222,6 +224,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px 20px;
   }
 }
 
@@ -264,12 +267,23 @@ footer {
   align-items: flex-start;
 }
 
+
 .flexbutton {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
 }
+
+@media only screen and (max-width: 768px) {
+  .flex-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 
 .flex-item3 {
   padding: 22px;
