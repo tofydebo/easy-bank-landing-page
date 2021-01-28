@@ -131,9 +131,9 @@ width: 100%;
 @media only screen and (max-width: 768px) {
   .background-image img {
     position: absolute;
-top: 0;
+top: 100px;
     width: 375px;
-    height: 423px;
+    height: 500px;
    /* margin-top: -290px;
     margin-left: -150px;*/
     overflow: hidden;
