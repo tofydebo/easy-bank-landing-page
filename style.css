@@ -183,10 +183,10 @@ justify-content: center;
 align-items: center;
 text-align: center;
 flex-direction: column;
-padding-left: 15px;
-  padding-right: 15px;
+padding-left: 10px;
+  padding-right: 10px;
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   
 }
 }
@@ -195,7 +195,7 @@ padding-left: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 100px 45px 100px;
+  padding: 30px 50px 45px 50px;
 }
 
 @media only screen and (max-width: 768px) {
