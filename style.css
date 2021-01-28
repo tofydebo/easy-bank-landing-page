@@ -87,6 +87,17 @@ body {
   align-items: flex-start;
   height: 550px;
 }
+
+@media only screen and (max-width: 768px) {
+  #home {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .biggest-font1 {
   padding-right: 30px;
   font-size: 25px;
