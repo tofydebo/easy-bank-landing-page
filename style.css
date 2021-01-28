@@ -112,7 +112,11 @@ body {
 .home-image {
   width: 60%;
 }
-
+@media screen only and (max-width:768px) {
+.home-image {
+width: 100%;
+}
+}
 .background-image img {
   width: 900px;
   height: 860px;
