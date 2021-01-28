@@ -144,6 +144,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 0px 10px 10px 10px;
+text-align: center;
   }
 }
     
@@ -179,16 +180,18 @@ padding-left: 60px;
     align-items: center;
     flex-direction: column;
     padding: 0px 10px 10px 10px;
-  }
-  
-  .flex-item2 {
-    padding: 15px;
 }
 }
 
 .flex-item2 {
-  padding: 10px;
-  padding-bottom: ;
+  padding: 10px;  
+}
+
+}
+  @media only screen and (max-width: 768px) {
+  .flex-item2 {
+    padding: 15px;
+}
 }
 
 .biggest-font {
@@ -283,6 +286,7 @@ footer {
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
     }
   }
 
