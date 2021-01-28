@@ -124,6 +124,17 @@ body {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+  .background-image img {
+    width: 375px;
+    height: 423px;
+    margin-top: -220px;
+    margin-left: -200px;
+    overflow: hidden;
+  }
+}
+
+
 .overlay-image img {
   position: absolute;
   top: 0px;
@@ -134,6 +145,16 @@ body {
   width: 600px;
   height: 800px;
 }
+
+@media only screen and (max-width: 768px) {
+  .overlay-image img {
+    width: 567px;
+    height: 738px;
+    margin-top: -100px;
+    margin-right: 20px;
+  }
+}
+
 #about {
   background-color: var(--light-grayish-blue);
 }
