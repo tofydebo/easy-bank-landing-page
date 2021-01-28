@@ -1,0 +1,260 @@
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Public Sans";
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.nav-bar {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  overflow: hidden;
+}
+
+.list1 {
+  list-style-type: none;
+}
+
+.list-items {
+  display: inline;
+  padding: 7px;
+}
+
+.list-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-items a:hover {
+  border-bottom: 5px solid hsl(136, 65%, 51%);
+  padding: 5px;
+}
+.green-buttons {
+  padding: 10px;
+  color: white;
+  background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-radius: 20px;
+  width: 3.8cm;
+  border: none;
+  cursor: pointer;
+}
+
+.green-buttons:hover {
+  background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+.grid-main {
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "home"
+    "about"
+    "blog"
+    "contact";
+}
+#home {
+  background-color: var(--very-light-gray);
+  grid-area: home;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 550px;
+}
+.biggest-font1 {
+  padding-right: 30px;
+  font-size: 25px;
+}
+.heading1 {
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 150px;
+  padding-bottom: 60px;
+  width: 40%;
+}
+
+.home-image {
+  width: 60%;
+}
+
+.background-image img {
+  width: 900px;
+  height: 860px;
+  position: relative;
+  top: 0px;
+  margin-top: -121px;
+  margin-left: 0px;
+  margin-right: -50px;
+  overflow: hidden;
+}
+
+.overlay-image img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -53px;
+  margin-right: -120px;
+  opacity: 0.5;
+  width: 600px;
+  height: 800px;
+}
+#about {
+  background-color: var(--light-grayish-blue);
+}
+.heading {
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  word-wrap: break-word;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 45px 100px;
+}
+
+.flex-item2 {
+  padding: 10px;
+  padding-bottom: ;
+}
+
+.biggest-font {
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+.smallest-font {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.body-opacity {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.bigger-font {
+  font-size: 20px;
+}
+.medium-font {
+  font-size: 14px;
+  padding: ;
+}
+
+#blog {
+  background-color: var(--white);
+}
+
+#blog img {
+  height: 10.625rem;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+figcaption {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+figcaption a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+figcaption a:hover {
+  color: var(--lime-green);
+}
+
+footer {
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: var(--white);
+  padding: 22px 88px;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.svg-icon {
+  padding: 5px;
+}
+.svg-icon path:hover {
+  fill: var(--lime-green);
+}
+
+#list2 {
+  font-size: 16px;
+  column-count: 2;
+}
+
+.list-item2 {
+  display: block;
+  padding: 7px;
+  color: white;
+}
+
+.list-item2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-item2 a:hover {
+  color: var(--lime-green);
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flexbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-item3 {
+  padding: 22px;
+}
+
+.flex-item4 {
+}
