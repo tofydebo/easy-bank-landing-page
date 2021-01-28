@@ -40,6 +40,13 @@ body {
   padding: 7px;
 }
 
+@media only screen (and max-width: 768px) {
+.list-items {
+padding: 2px;
+font-size: 10px;
+}
+}
+
 .list-items a {
   text-decoration: none;
   color: black;
@@ -134,8 +141,8 @@ width: 100%;
 top:;
     width: 575px;
     height: 700px;
-margin-right: 300px;
-   margin-top: -300px;
+margin-right: 350px;
+   margin-top: -200px;
    /* margin-left: -150px;*/
     overflow: hidden;
   }
