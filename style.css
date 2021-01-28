@@ -126,10 +126,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   .background-image img {
+    top: 0;
     width: 375px;
     height: 423px;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: -56px;
+    margin-left: -50px;
     overflow: hidden;
   }
 }
@@ -150,8 +151,8 @@ body {
   .overlay-image img {
     width: 400px;
     height: 600px;
-    margin-top: ;
-    margin-right:;
+    margin-top: -33px;
+    margin-right: 10px;
   }
 }
 
