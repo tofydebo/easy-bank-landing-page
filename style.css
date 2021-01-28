@@ -128,8 +128,8 @@ body {
   .background-image img {
     width: 375px;
     height: 423px;
-    margin-top: -220px;
-    margin-left: -200px;
+    margin-top: 0px;
+    margin-left: 0px;
     overflow: hidden;
   }
 }
@@ -148,10 +148,10 @@ body {
 
 @media only screen and (max-width: 768px) {
   .overlay-image img {
-    width: 567px;
-    height: 738px;
-    margin-top: -100px;
-    margin-right: 20px;
+    width: 400px;
+    height: 600px;
+    margin-top: ;
+    margin-right:;
   }
 }
 
