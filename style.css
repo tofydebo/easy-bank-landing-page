@@ -123,11 +123,17 @@ font-size: 5px;
   width: 40%;
 }
 
+@media screen only and (max-width: 768px) {
+.heading1 {
+margin-top: 100px;
+}
+}
+
 .home-image {
   width: 60%;
 overflow-x: hidden;
 }
-@media screen only and (max-width:768px) {
+@media screen only and (max-width: 768px) {
 .home-image {
 width: 100%;
 }
