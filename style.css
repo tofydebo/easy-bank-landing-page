@@ -162,6 +162,9 @@ margin-left: -170px;
   }
 }
 
+.overlay-img {
+overflow-x: hidden;
+}
 
 .overlay-image img {
   position: absolute;
