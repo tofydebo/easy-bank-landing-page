@@ -145,7 +145,7 @@ width: 100%;
   position: relative;
 top: 0px;
   margin-top: -131px;
-  margin-left:;
+  margin-left: -60px;
   margin-right: 0px;
   overflow: hidden;
 }
@@ -156,8 +156,8 @@ top: 0px;
 top:;
     width: 575px;
     height: 700px;
-margin-left: -160px;
-   margin-top: -260px;
+margin-left: -150px;
+   margin-top: -273px;
    /* margin-left: -150px;*/
     overflow: hidden;
   }
@@ -166,7 +166,6 @@ margin-left: -160px;
 .overlay-img {
 width: 60%;
 overflow-x: hidden;
-z-index: -1;
 }
 
 media screen only and (max-width: 768px) {
@@ -179,8 +178,9 @@ width: 100%;
   position: absolute;
   top: 0px;
   right: 0px;
-  margin-top: -10px;
-  margin-right: 0px;
+  margin-top: -25px;
+  margin-right:;
+margin-left: -50px;
   width: 600px;
   height: 800px;
 overflow: hidden;
