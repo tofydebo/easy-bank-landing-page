@@ -234,7 +234,7 @@ padding-left: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 60px 45px 60px;
+  padding: 10px 20px 45px 60px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -249,6 +249,7 @@ padding-left: 10px;
 
 .flex-item2 {
   padding: 10px;  
+padding-right: 3px;
 }
 
 }
