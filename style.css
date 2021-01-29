@@ -122,57 +122,6 @@ font-size: 5px;
   padding-bottom: 60px;
   width: 40%;
 }
-@media only screen and (min-width: 768px) and (max-width: 992px) and (orientation: portrait) {  
-.heading1 {
-  padding-left: 60px;
-  padding-right: 50px;
-  padding-top: 150px;
-  padding-bottom: 60px;
-  width: 40%;
-}
-  
-  .heading {
-  padding-left: 60px;
-  padding-right:;
-  padding-top: 70px;
-  padding-bottom: 60px;
-  }
-  
-  .flex-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px auto 45px 60px;
-}
-
-  .background-image img {
-  width: 840px;
-  height: 740px;
-  position: relative;
-top: 0px;
-  margin-top: -131px;
-  margin-left: -55px;
-  margin-right: -10px;
-  overflow: hidden;
-}
-  
-  #home {
-    height: 480px;
-  }
-  .overlay-image img {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  margin-top: -60px;
-  margin-right:-90px;
-margin-left: 400px;
-  width: 400px;
-  height: 600px;
-overflow: hidden;
-}
-
-}
-
 @media only screen and (max-width: 768px) {
 .heading1 {
 position: absolute;
@@ -441,5 +390,55 @@ flex-direction: column;
   padding: 22px;
 }
 
-.flex-item4 {
+@media only screen and (min-width: 768px) and (max-width: 992px) and (orientation: portrait) {  
+.heading1 {
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-top: 150px;
+  padding-bottom: 60px;
+  width: 40%;
 }
+  
+  .heading {
+  padding-left: 60px;
+  padding-right:;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  }
+  
+  .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px auto 45px 60px;
+}
+
+  .background-image img {
+  width: 840px;
+  height: 740px;
+  position: relative;
+top: 0px;
+  margin-top: -131px;
+  margin-left: -55px;
+  margin-right: -10px;
+  overflow: hidden;
+}
+  
+  #home {
+    height: 480px;
+  }
+  .overlay-image img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -60px;
+  margin-right:-90px;
+margin-left: 400px;
+  width: 400px;
+  height: 600px;
+overflow: hidden;
+}
+
+}
+
+
