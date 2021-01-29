@@ -126,7 +126,7 @@ font-size: 5px;
 @media screen only and (max-width: 768px) {
 .heading1 {
 position: relative;
-top: 320px;
+top: 380px;
 }
 }
 
@@ -134,11 +134,19 @@ top: 320px;
   width: 60%;
 overflow-x: hidden;
 }
+
 @media screen only and (max-width: 768px) {
 .home-image {
 width: 100%;
+overflow-x: hidden;
+}
+
+.background-image {
+width: 100%;
+overflow-x: hidden;
 }
 }
+
 .background-image img {
   width: 840px;
   height: 740px;
@@ -178,7 +186,7 @@ width: 100%;
   position: absolute;
   top: 0px;
   right: 0px;
-  margin-top: -89px;
+  margin-top: 30px;
   margin-right:;
 margin-left: -50px;
   width: 600px;
