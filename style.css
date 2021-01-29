@@ -126,7 +126,7 @@ font-size: 5px;
 @media screen only and (max-width: 768px) {
 .heading1 {
 position: absolute;
-top: 300px;
+top: 600px;
 }
 }
 
@@ -162,9 +162,9 @@ top: 0px;
   .background-image img {
     position: absolute;
 top:;
-    width: 130%;
+    width: 145%;
     height: 700px;
-margin-left: -120px;
+margin-left: -135px;
    margin-top: -143px;
    /* margin-left: -150px;*/
     overflow: hidden;
