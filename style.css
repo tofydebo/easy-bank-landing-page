@@ -122,7 +122,7 @@ font-size: 5px;
   padding-bottom: 60px;
   width: 40%;
 }
-@media screen only and (max-width: 992px) and (min-width: 768px) {  
+@media only screen and (max-width: 992px) and (min-width: 768px) {  
 .heading1 {
   padding-left: 60px;
   padding-right: 50px;
@@ -166,7 +166,7 @@ overflow: hidden;
 
 }
 
-@media screen only and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 .heading1 {
 position: absolute;
 top: 600px;
@@ -178,18 +178,7 @@ top: 600px;
 overflow-x: hidden;
 }
 
-@media screen only and (max-width: 768px) {
-.home-image {
-width: 100%;
-overflow-x: hidden;
-}
-
-.background-image {
-width: 100%;
-}
-}
-
-    .background-image img {
+.background-image img {
   width: 900px;
   height: 800px;
   position: relative;
@@ -217,12 +206,6 @@ margin-left: -135px;
 .overlay-img {
 width: 60%;
 overflow-x: hidden;
-}
-
-media screen only and (max-width: 768px) {
-.overlay-image {
-width: 100%;
-}
 }
 
 .overlay-image img {
