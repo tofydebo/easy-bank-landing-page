@@ -126,7 +126,7 @@ font-size: 5px;
 @media screen only and (max-width: 768px) {
 .heading1 {
 position: relative;
-top: 480px;
+top: 1000px;
 }
 }
 
@@ -162,7 +162,7 @@ top: 0px;
   .background-image img {
     position: absolute;
 top:;
-    width: 100%;
+    width: 130%;
     height: 700px;
 margin-left: -70px;
    margin-top: -103px;
@@ -198,7 +198,7 @@ overflow: hidden;
   .overlay-image img {
     width: 335px;
     height: 400px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-right: 0px;
   }
 }
