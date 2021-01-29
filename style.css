@@ -125,8 +125,8 @@ font-size: 5px;
 
 @media screen only and (max-width: 768px) {
 .heading1 {
-position: relative;
-top: 1000px;
+position: absolute;
+top: 300px;
 }
 }
 
@@ -164,8 +164,8 @@ top: 0px;
 top:;
     width: 130%;
     height: 700px;
-margin-left: -70px;
-   margin-top: -103px;
+margin-left: -120px;
+   margin-top: -143px;
    /* margin-left: -150px;*/
     overflow: hidden;
   }
@@ -198,7 +198,7 @@ overflow: hidden;
   .overlay-image img {
     width: 335px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-right: 0px;
   }
 }
