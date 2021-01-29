@@ -148,6 +148,22 @@ top: 0px;
   margin-right: -10px;
   overflow: hidden;
 }
+  
+  #home {
+    height: 480px;
+  }
+  .overlay-image img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: -60px;
+  margin-right:-90px;
+margin-left: 400px;
+  width: 400px;
+  height: 600px;
+overflow: hidden;
+}
+
 }
 
 @media screen only and (max-width: 768px) {
@@ -170,7 +186,6 @@ overflow-x: hidden;
 
 .background-image {
 width: 100%;
-overflow-x: hidden;
 }
 }
 
@@ -214,14 +229,13 @@ width: 100%;
   position: absolute;
   top: 0px;
   right: 0px;
-  margin-top: -60px;
-  margin-right:-90px;
-margin-left: 400px;
-  width: 400px;
-  height: 600px;
-overflow: hidden;
+  margin-top: -53px;
+  margin-right: -120px;
+  opacity: ;
+  width: 600px;
+  height: 800px;
 }
-
+  
 @media only screen and (max-width: 768px) {
   .overlay-image img {
     width: 335px;
