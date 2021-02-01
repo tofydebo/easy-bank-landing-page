@@ -10,6 +10,6 @@ $(document).ready(function(){
     $('.close-nav').click(function () {
         $('.list1').fadeOut('200');
         $(this).removeClass('active');
-        $('.burger-nav').removeClass('active')
+        $('.burger-nav').removeClass('active');
     });
 });
