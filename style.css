@@ -40,24 +40,24 @@ body {
   padding: 7px;
 }
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 .list-items {
 padding: 2px;
 font-size: 10px;
 }
-}
+}*/
 
 .list-items a {
   text-decoration: none;
   color: black;
 }
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 .list-items a {
 padding: 2px;
 font-size: 5px;
 }
-}
+}*/
 
 .list-items a:hover {
   border-bottom: 5px solid hsl(136, 65%, 51%);
@@ -131,7 +131,6 @@ top: 450px;
 
 .home-image {
   width: 60%;
-overflow-x: hidden;
 }
 
 .background-image img {
