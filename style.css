@@ -124,12 +124,6 @@ cursor: pointer;
 }
 
 
-
-
-
-
-
-
 .list-items a {
   text-decoration: none;
   color: black;
@@ -208,7 +202,13 @@ font-size: 5px;
 @media only screen and (max-width: 768px) {
 .heading1 {
 position: absolute;
-top: 450px;
+top: 419px;
+padding: 0;
+}
+
+.green-buttons {
+  position: absolute;
+  top: 519px;
 }
 }
 
