@@ -50,15 +50,7 @@ width: 100%;
 body {
 overflow: hidden;
 }
-
-nav .flex-item {
-display: flex;
-justify-content: space-between;
-align-content: center;
-flex-direction: row;
 }
-}
-
 @media only screen and (max-width: 780px) {
 .list1.active {
     width: 80%;
