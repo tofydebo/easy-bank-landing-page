@@ -47,10 +47,10 @@ body {
 
 @media only screen and (max-width: 500px) {
 
-.js-list {
+.list1.active {
     width: 100%;
     height: auto;
-    display: none;
+    display: block
     background-color: white;
     border-radius: 10px;
     text-align: center;
@@ -62,41 +62,43 @@ body {
     padding: 20px;
   }
 
-  .js-list li {
+  .list1 li.active {
     padding: 10px;
     text-align: center;
   }
 
-  .js-list li a {
+  .list1 li a.active {
     color: black;
   }
 
 .burger-nav {
-background: url(images/icon-hamburger.svg) no-repeat 95% center; 
+background: url(images/icon-hamburger.svg) no-repeat center; 
 width: 100%;
 height: 40px;
 float: right;
 display: block;
 cursor: pointer;
+  transition: 0.5s ease-in;
 }
 
-.burger-nav.active {
+/*burger-nav.active {
   background: url(images/icon-close.svg) no-repeat -105% center; 
 }
+*/
 
-
-.close-nav {
+.burger-nav.active {
   width: 100%;
   height: 40px;
   display: block;
-  background: url(images/icon-close.svg) no-repeat -102% center;
+  background: url(images/icon-close.svg) no-repeat center;
   transition: all 0.5s ease;
   cursor: pointer;
 }
-.close-nav.active {
-  background: url(images/icon-close.svg) no-repeat 95% center; 
+/*.close-nav.active {
+  background: url(images/icon-close.svg) no-repeat 95% center
 }
-
+*/
+  
 .list1 {
   width: 100%;
   height: 100px;
