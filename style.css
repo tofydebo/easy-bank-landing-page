@@ -86,7 +86,7 @@ cursor: pointer;
 }
 */
 
-.burger-nav.active {
+.burger.active {
   width: 100%;
   height: 40px;
   display: block;
