@@ -57,10 +57,10 @@ align-items: center;
     border-radius: 10px;
     text-align: center;
     z-index: 15;
-  /*  position: absolute;
+   position: absolute;
     top: 25%;
     right: 5%;
-    left: 5%;*/
+    left: 5%;
   
   }
 
@@ -97,7 +97,7 @@ cursor: pointer;
 .list1 {
   width: 100%;
   height: 100px;
-  display: 
+  display: none;
   float: none;
   background-color: pink;
   border-radius: 3px;
