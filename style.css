@@ -47,6 +47,12 @@ body {
 
 
 @media only screen and (max-width: 780px) {
+.flex {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
 .list1.active {
     width: 100%;
     height: auto;
