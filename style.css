@@ -93,6 +93,7 @@ cursor: pointer;
   background: url(images/icon-close.svg) no-repeat center;
   transition: all 0.5s ease;
   cursor: pointer;
+  transition: 0.5s ease-in;
 }
 /*.close-nav.active {
   background: url(images/icon-close.svg) no-repeat 95% center
