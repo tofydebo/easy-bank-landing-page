@@ -55,8 +55,8 @@ padding: 0;
 }
 
 .list1.active {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 100px;
     display: grid;
 justify-content: center;
 align-items: center;
@@ -65,7 +65,7 @@ align-items: center;
     text-align: center;
     z-index: 15;
    position: absolute;
-    top: 25%;
+    top: 35%;
     right: 5%;
     left: 5%;
   
