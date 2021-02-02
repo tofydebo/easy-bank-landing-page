@@ -46,11 +46,7 @@ width: 100%;
   padding: 3px;
 }
 
-@media only screen and (min-width:768px) {
-body {
-overflow: hidden;
-}
-}
+
 @media only screen and (max-width: 780px) {
 .list1.active {
     width: 80%;
@@ -119,8 +115,7 @@ cursor: pointer;
 .list1 li a {
   color: black;
 }
-
-nav .green-buttons {
+header .green-buttons {
   display: none;
 }
 }
