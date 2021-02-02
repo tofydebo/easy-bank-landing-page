@@ -45,7 +45,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 780px) {
 
 .list1.active {
     width: 100%;
