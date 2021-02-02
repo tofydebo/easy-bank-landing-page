@@ -180,7 +180,7 @@ overflow: hidden;
 
 @media only screen and (max-width: 768px) {
   #home {
-    height: 650px;
+    height: 690px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -265,7 +265,6 @@ overflow-x: hidden;
 
 #about {
   background-color: var(--light-grayish-blue);
-width: 100%;
 }
 @media only screen and (max-width: 768px) {
   #about {
@@ -354,7 +353,7 @@ padding-left: 15px;
 
 #blog {
   background-color: var(--white);
-width: 100%;
+
 }
 
 #blog img {
@@ -387,7 +386,7 @@ footer {
   font-size: 16px;
   color: var(--white);
   padding: 22px 88px;
-width:100%;
+
 }
 
 @media only screen and (max-width: 768px) {
