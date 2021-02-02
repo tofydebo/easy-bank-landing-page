@@ -1,15 +1,9 @@
-$(document).ready(function(){
-    $('.close-nav').removeClass('active');
-
-    $('.burger-nav').click(function () {
-        $('.js-list').fadeIn('200');
-        $('.close-nav').addClass('active');
-        $('.burger-nav').addClass('active');
-    });
-
-    $('.close-nav').click(function () {
-        $('.js-list').fadeOut('200');
-        $(this).removeClass('active');
-        $('.burger-nav').removeClass('active');
-    });
-});
+const menuToggle = document.querySelector('.burger')
+const dropdown = document. querySelector('.list1)
+                                         
+   menuToggle.addEventListener('click', () =>{
+    menuToggle.classList.burger('active')
+    dropdown.classList.burger('active')
+    
+    })
+    
