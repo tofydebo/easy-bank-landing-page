@@ -59,7 +59,7 @@ align-items: center;
     text-align: center;
     z-index: 15;
    position: absolute;
-    top: 120%;
+    top: 130%;
     right: 10%;
     left: 10%;
  }
@@ -202,9 +202,11 @@ overflow: hidden;
 @media only screen and (max-width: 768px) {
 .heading1 {
 position: absolute;
-top: 300px;
+top: 270px;
 padding-left: 15px;
-}
+  padding-right: 10px;
+  padding-bottom: 20px;
+  }
 }
 
 .home-image {
