@@ -50,16 +50,18 @@ body {
 .list1.active {
     width: 100%;
     height: auto;
-    display: block
-    background-color: white;
+    display: grid;
+justify-content: center;
+align-items: center;
+    background-color: pink;
     border-radius: 10px;
     text-align: center;
     z-index: 15;
-    position: absolute;
+  /*  position: absolute;
     top: 25%;
     right: 5%;
-    left: 5%;
-    padding: 20px;
+    left: 5%;*/
+  
   }
 
   .list1 li.active {
