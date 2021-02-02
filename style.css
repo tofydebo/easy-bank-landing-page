@@ -74,6 +74,7 @@ align-items: center;
   .list1 li.active {
     padding: 10px;
     text-align: center;
+z-index: 15;
   }
 
   .list1 li a.active {
