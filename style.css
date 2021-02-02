@@ -16,6 +16,7 @@ body {
   font-family: "Public Sans";
   font-size: 18px;
   overflow-x: hidden;
+width: 100%;
 }
 .burger {
   display: none;
@@ -208,13 +209,8 @@ overflow: hidden;
 @media only screen and (max-width: 768px) {
 .heading1 {
 position: absolute;
-top: 419px;
+top: 350px;
 padding-left: 15px;
-}
-
-.green-buttons {
-  position: absolute;
-  top: 519px;
 }
 }
 
@@ -274,6 +270,7 @@ overflow-x: hidden;
 
 #about {
   background-color: var(--light-grayish-blue);
+width: 100%;
 }
 @media only screen and (max-width: 768px) {
   #about {
@@ -362,6 +359,7 @@ padding-left: 15px;
 
 #blog {
   background-color: var(--white);
+width: 100%;
 }
 
 #blog img {
@@ -394,6 +392,7 @@ footer {
   font-size: 16px;
   color: var(--white);
   padding: 22px 88px;
+width:100%;
 }
 
 @media only screen and (max-width: 768px) {
