@@ -71,7 +71,7 @@ body {
     color: black;
   }
 
-.burger-nav {
+.burger {
 background: url(images/icon-hamburger.svg) no-repeat center; 
 width: 100%;
 height: 40px;
