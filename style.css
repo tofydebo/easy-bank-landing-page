@@ -55,8 +55,8 @@ padding: 0;
 }
 
 .list1.active {
-    width: 70%;
-    height: 100px;
+    width: 80%;
+    height: 300px;
     display: grid;
 justify-content: center;
 align-items: center;
@@ -65,11 +65,10 @@ align-items: center;
     text-align: center;
     z-index: 15;
    position: absolute;
-    top: 35%;
-    right: 5%;
-    left: 5%;
-  
-  }
+    top: 60%;
+    right: 10%;
+    left: 10%;
+ }
 
   .list1 li.active {
     padding: 10px;
